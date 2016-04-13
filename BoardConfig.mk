@@ -70,3 +70,4 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TW_INPUT_BLACKLIST := "accelerometer"
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_IGNORE_ABS_MT_TRACKING_ID := true
+TARGET_RECOVERY_QCOM_RTC_FIX := true
